@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>新增主題</title>
     <link rel="stylesheet" href="../css/style.css">
+    
 </head>
 <body>
 <main>
@@ -36,33 +37,10 @@
         <div>
             <label for="description">項目：</label>
             <input type="text" name="description[]"  class="description-input">
-            <span>+</span>
+            <span onclick="addOption()">+</span>
         </div>
 
-        <div>
-            <label for="description">項目：</label>
-            <input type="text" name="description[]"  class="description-input">
-        </div>
-        <div>
-            <label for="description">項目：</label>
-            <input type="text" name="description[]"  class="description-input">
-        </div>
-        <div>
-            <label for="description">項目：</label>
-            <input type="text" name="description[]"  class="description-input">
-        </div>
-        <div>
-            <label for="description">項目：</label>
-            <input type="text" name="description[]"  class="description-input">
-        </div>
-        <div>
-            <label for="description">項目：</label>
-            <input type="text" name="description[]"  class="description-input">
-        </div>
-        <div>
-            <label for="description">項目：</label>
-            <input type="text" name="description[]"  class="description-input">
-        </div>
+        
     </div>
         <div>
             <input type="submit" value="新增">
